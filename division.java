@@ -4,7 +4,7 @@ public class division {
             return firstNumber / secondNumber;
         } else {
             System.out.println("Cannot divide by zero!");
-            return Double.NaN; // NaN represents an undefined nalue
+            return Double.NaN; // NaN represents an undefined value
         }
     }
 }
