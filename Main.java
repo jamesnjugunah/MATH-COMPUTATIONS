@@ -29,6 +29,7 @@ public class Main {
         break;
       case "+":
         double result = sum.add(num1,num2);
+        System.out.println(result);
         break;
       default:
         System.out.println("invalid operator");
