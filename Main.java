@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
     Multiplication product = new Multiplication();
+    Addition sum =new Addition();
     Scanner scanner = new Scanner(System.in);
 
     System.out.println("Welcome to our Circle Area Calculator!");
