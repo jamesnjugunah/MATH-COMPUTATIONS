@@ -5,6 +5,7 @@ public class Main {
     Multiplication product = new Multiplication();
     Addition sum =new Addition();
     Scanner scanner = new Scanner(System.in);
+    
 
     System.out.println("Welcome to our Circle Area Calculator!");
     System.out.print("Enter the radius of the circle: ");
@@ -23,8 +24,11 @@ public class Main {
     double num2 = scanner.nextDouble();
     switch (operator) {
       case "*":
-        double result = product.multiply(12, 12);
+        double result = product.multiply(num1,num2);
         System.out.println(result);
+        break;
+      case "+":
+        double result = sum.add(num1,num2);
         break;
       default:
         System.out.println("invalid operator");
